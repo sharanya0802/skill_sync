@@ -1,5 +1,7 @@
 console.log("chat.js loaded");
 // ---------------- CONFIG ----------------
+const SUPABASE_URL = "https://ygaprmfmbtkbgehpmcde.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlnYXBybWZtYnRrYmdlaHBtY2RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4NTQ0NzAsImV4cCI6MjA3ODQzMDQ3MH0.gg8RPKj-xee91qgEx1fFlw2LdvDgRd7gxbpMvvLeuSI"; // 👈 put full key here
 
 // Import Supabase client
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
